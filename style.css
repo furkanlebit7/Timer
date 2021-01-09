@@ -1,0 +1,35 @@
+body{
+    font-family: 'Itim', cursive;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2c2f3b;
+}
+.container{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 10px solid rgb(0,240,240);
+}
+.time{
+    font-size: 1.7rem;
+    color: white;
+}
+.date-container{
+    color: rgb(192, 192, 192);
+}
+
+.colon{
+    animation: opa 1s infinite;
+}
+
+@keyframes opa{
+    0%,100%{opacity: 1;}
+    30%{opacity: 0.2;}
+}
